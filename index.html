@@ -3,26 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
+    <!-- <link rel="stylesheet" href="css/reset.css" /> -->
     <link rel="stylesheet" href="css/main_style.css" />
+    <link rel="stylesheet" href="css/responsive_menu.css" />
+
     <title>SDM</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <section class="main_banner">
+      <div class="off_screen_menu">
+        <ul>
+          <li>link</li>
+          <li>link</li>
+          <li>link</li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <section class="primary_banner_section">
           <h1 class="logo">SDM</h1>
           <nav>
             <ul>
-              <li><a href="#" class="nav_item">link</a></li>
-              <li><a href="#" class="nav_item">link</a></li>
-              <li><a href="#" class="nav_item">link</a></li>
+              <li><a href="#" class="nav_item nav_item_">link</a></li>
+              <li><a href="#" class="nav_item nav_item_">link</a></li>
+              <li><a href="#" class="nav_item nav_item_">link</a></li>
             </ul>
           </nav>
+
+          <div class="ham_menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </section>
       </div>
     </header>
-    <section class="cta container">
+    <section class="cta wrapper">
       <h2>test</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum cum est
@@ -63,5 +78,6 @@
         voluptas maxime nostrum, quia at! Voluptatibus.
       </p>
     </section>
+    <script src="javascript/ham_menu_active.js"></script>
   </body>
 </html>
