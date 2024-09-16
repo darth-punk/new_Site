@@ -31,6 +31,9 @@ header {
   justify-content: space-between;
   z-index: 999;
 }
+.logo {
+  z-index: 999;
+}
 nav ul {
   display: flex;
   list-style: none;
